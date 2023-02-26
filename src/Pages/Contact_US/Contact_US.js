@@ -1,4 +1,5 @@
 import React from 'react';
+import PrimaryButton from '../../component/PrimaryButton/PrimaryButton';
 import './Contact_US.css';
 
 const Contact_US = () => {
@@ -21,7 +22,7 @@ const Contact_US = () => {
                             <div class="p-2 w-1/2">
                                 <div class="relative">
                                     <label for="email" class="leading-7 text-bold text-white">Email</label>
-                                    <input type="email" id="email" name="email" class="w-full bg-white bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+                                    <input type="email" id="email" name="email" class="w-full bg-white bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
                             <div class="p-2 w-full">
@@ -30,9 +31,8 @@ const Contact_US = () => {
                                     <textarea id="message" name="message" class="w-full bg-white bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                                 </div>
                             </div>
-                            <div class="p-2 w-full">
-                                
-                                <button className=" flex mx-auto btn btn-primary bg-gradient-to-r from-primary to-secondary text-white">Submit</button>
+                            <div class="p-2 w-full flex justify-around">
+                                <PrimaryButton >Submit</PrimaryButton>
                             </div>
                         </div>
                     </div>

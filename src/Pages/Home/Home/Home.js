@@ -2,20 +2,20 @@ import React from 'react';
 import Appointment_Banner from '../../Appointment_Banner/Appointment_Banner';
 import Contact_US from '../../Contact_US/Contact_US';
 import Dental_Care from '../../Dental_Care/Dental_Care';
-import OUR_SERVICES from '../../OUR_SERVICES/OUR_SERVICES';
-import Testimonial from '../../Testimonial/Testimonial';
+import Services from '../../OUR_SERVICES/Services';
 import Banner from '../Banner/Banner';
-import Info from '../Info/Info';
+import InfoCards from '../InfoCards/InfoCards';
+import Testimonial from '../../Testimonial/Testimonials';
 
 const Home = () => {
     return (
         <div className='mx-5'>
             <Banner />
-            <Info />
-            <OUR_SERVICES />
+            <InfoCards />
+            <Services />
             <Dental_Care />
             <Appointment_Banner />
-            <Testimonial />
+            <Testimonial></Testimonial>
             <Contact_US />
         </div>
     );
