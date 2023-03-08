@@ -28,7 +28,9 @@ const AvailableServices = ({ selectedDate }) => {
                 treatment &&
                 <ServiceModal
                         selectedDate={selectedDate}
-                    treatment={treatment}
+                        treatment={treatment}
+                        setTreatment={setTreatment}
+
                 ></ServiceModal>
             }
         </section>
