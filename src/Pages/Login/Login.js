@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
     const { register, formState: { errors }, handleSubmit } = useForm();
-    
+
     const handleLogin = data => {
-    console.log(data);
-}
+        console.log(data);
+    }
 
     return (
         <div className="h-[800px] flex justify-center items-center ">
